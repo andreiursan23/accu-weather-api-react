@@ -17,8 +17,6 @@ function App() {
     submitRequest(location);
   };
 
-  console.log(forecast);
-
   return (
     <div>
       <Header />
