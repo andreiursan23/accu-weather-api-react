@@ -4,7 +4,7 @@ import { useState } from "react";
 import getCurrentDayForecast from "../helpers/getCurrentDayForecast";
 import getUpcomingDaysForecast from "../helpers/getUpcomingDaysForecast";
 
-const BASE_URL = "http://dataservice.accuweather.com";
+const BASE_URL = "https://dataservice.accuweather.com";
 
 export const useForecast = () => {
   const [error, setError] = useState(null);

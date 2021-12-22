@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "http://dataservice.accuweather.com";
+const BASE_URL = "https://dataservice.accuweather.com";
 
 export const useIpLocation = () => {
   const getUserIp = async () => {
