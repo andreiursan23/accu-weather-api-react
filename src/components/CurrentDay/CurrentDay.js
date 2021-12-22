@@ -22,7 +22,7 @@ const CurrentDay = ({
         </p>
       </div>
       <div>
-        <img width="70" src={weatherIcon} alt="Weather Description Icon" />
+        <img width="80" src={weatherIcon} alt="Weather Description Icon" />
         <h2 className="font-weight-bold mb-1">
           <span>{temperature}</span>°C
         </h2>
