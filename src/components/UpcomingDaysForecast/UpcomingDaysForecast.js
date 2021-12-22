@@ -7,7 +7,7 @@ const UpcomingDaysForecast = ({ days }) => {
     <ul
       className={`${styles.weekList} d-flex justify-content-between p-0 flex-wrap`}
     >
-      {days.map((day) => (
+      {days.slice(1).map((day) => (
         <UpcomingDaysForecastItem {...day} key={day.weekday} />
       ))}
     </ul>
