@@ -9,6 +9,6 @@
   background-color: var(--bg-color--card);
   color: var(--main-text-color);
   width: 85%;
-  max-width: 675px;
+  max-width: 900px;
   min-height: 300px;
 }
