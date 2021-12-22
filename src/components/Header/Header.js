@@ -4,7 +4,7 @@ function Header() {
   return (
     <>
       <h1 className={styles.heading}>
-        <span className={styles.light}>Weather</span> Forecast
+        <span className={styles.light}>Weather</span> App
       </h1>
     </>
   );
